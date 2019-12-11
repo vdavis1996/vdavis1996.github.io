@@ -1,3 +1,953 @@
 body{
     background-color: black;
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    width:100vw;
+    height:5vh;
+    margin:auto;
+    margin-top:0px;
+    background-color: rgb(106,115,116);
+}
+
+h2{
+    color:black;
+    font-family:"Copperplate Gothic",san serif;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    padding-right:-10px;  
+}
+
+.main_page{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-column-gap: 2em 2em 2em;
+    margin-top:10px;
+    height:auto;
+}
+
+  .about{
+    width:24.6vw;
+    height:140vh;
+    background-color:rgb(122, 162, 167);
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+img{
+    max-width: 100%;
+}
+
+h3{
+    text-align: center;
+    font-family: "Copperplate Gothic",sans serif;
+    font-size:50px;
+    margin-top:-10px;
+}
+
+h1{
+    text-align:center;
+    font-family:"Copperplate Gothic",san serif;
+    font-size:20px;
+    color:black;
+    margin:0px;
+    padding:0px;
+    margin-top:10px;
+}
+.main_title{
+    margin:auto;
+    padding:0px;
+    margin-top:10px;
+    height:500px;
+}
+
+h4{
+    text-align:center;
+    font-family:"Copperplate Gothic",san serif;
+    font-size:60px;
+    color:rgb(118,152,185);
+    margin:0px;
+    padding:0px;
+    margin-top:10px;
+}
+
+h4{
+    text-align:center;
+    font-family:"Copperplate Gothic",san serif;
+    font-size:45px;
+    color:rgb(118,152,185);
+    margin:0px;
+    padding:0px;
+}
+
+.statement{
+    width:24.6vw;
+    height:140vh;
+    background-color: rgb(122, 162, 167);
+    margin:right;
+    margin-right:20px;
+    margin-top:10px;
+}
+
+.contacts{
+    margin:0;
+    padding:0;
+    margin-top:200px;
+}
+
+h5{
+    text-align:center;
+    font-size:25px;
+    font-family:"Copperplate Gothic",san serif;
+    color:rgb(118,152,185);
+    margin:0px;
+    padding:0px;
+    margin-top:5px;
+}
+
+.header_2{
+    width:100vw;
+    height:6vh;
+    margin:auto;
+    margin-top:100px;
+    background-color: rgb(23,178,79);
+}
+
+.group_page{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap:2em;
+    grid-row-gap: 2em;
+    margin-top:30px;
+}
+
+.orangered{
+    border: 4px solid orangered;
+}
+.orangered h1{
+    color:orangered;
+}
+
+.skyblue{
+    border: 4px solid skyblue;
+}
+.skyblue h1{
+    color:skyblue;
+}
+
+.purple{
+    border:4px solid purple;
+}
+.purple h1{
+    color:purple;
+}
+
+.limegreen{
+    border:4px solid limegreen;
+}
+.limegreen h1{
+    color:limegreen;
+}
+
+.lightslategray{
+    border:4px solid lightslategray;
+}
+.lightslategray h1{
+    color:lightslategray;
+}
+
+.red{
+    border:4px solid red;
+}
+.red h1{
+    color:red;
+}
+
+.moonlightblue{
+    border:4px solid rgb(51,81,162);
+}
+.moonlightblue h1{
+    color:rgb(51,81,162);
+}
+
+.lavender{
+    border:4px solid blueviolet;
+}
+.lavender h1{
+    color:blueviolet;
+}
+
+.teal{
+    border:4px solid teal;
+}
+.teal h1{
+    color:teal;
+}
+
+.home{
+    width:70px;
+    height:30px;
+    background-color:rgb(23,178,79);
+    margin:0px;
+    padding:0px;
+}
+
+.header_3{
+    width:100vw;
+    height:6vh;
+    margin:auto;
+    margin-top:30px;
+    background-color:gray;
+}
+
+.Individual_page1{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card1{
+    width:24.6vw;
+    height:85vh;
+    background-color:orangered;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card1{
+    border:6px solid orangered;
+    width:24.6vw;
+    height:85vh;
+}
+
+.orangered h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:orangered;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page2{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card2{
+    width:24.6vw;
+    height:85vh;
+    background-color:skyblue;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card2{
+    border:6px solid skyblue;
+    width:24.6vw;
+    height:85vh;
+}
+
+.skyblue h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:skyblue;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page3{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card3{
+    width:24.6vw;
+    height:85vh;
+    background-color: purple;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card3{
+    border:6px solid purple;
+    width:24.6vw;
+    height:85vh;
+}
+
+.purple h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:purple;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page4{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card4{
+    width:24.6vw;
+    height:90vh;
+    background-color:limegreen;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card4{
+    border:6px solid limegreen;
+    width:24.6vw;
+    height:90vh;
+}
+
+.limegreen h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:limegreen;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page5{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card5{
+    width:24.6vw;
+    height:85vh;
+    background-color:lightslategray;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card5{
+    border:6px solid lightslategray;
+    width:24.6vw;
+    height:85vh;
+}
+
+.lightslategray h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:lightslategray;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page6{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card6{
+    width:24.6vw;
+    height:89vh;
+    background-color:red;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card6{
+    border:6px solid red;
+    width:24.6vw;
+    height:89vh;
+}
+
+.red h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:red;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page7{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card7{
+    width:24.6vw;
+    height:85vh;
+    background-color:rgb(51,81,162);
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card7{
+    border:6px solid rgb(51,81,162);
+    width:24.6vw;
+    height:85vh;
+}
+
+.moonlightblue h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:rgb(51,81,162);
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page8{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card8{
+    width:24.6vw;
+    height:88vh;
+    background-color:blueviolet;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card8{
+    border:6px solid blueviolet;
+    width:24.6vw;
+    height:88vh;
+}
+
+.lavender h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:blueviolet;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+.Individual_page9{
+    width:50vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:400px;
+    grid-column-gap:2em;
+    margin-top:30px;
+}
+
+.character_card9{
+    width:24.6vw;
+    height:88vh;
+    background-color:teal;
+    margin:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.img{
+    max-width:100%;
+}
+
+.info_card9{
+    border:6px solid teal;
+    width:24.6vw;
+    height:88vh;
+}
+
+.teal h6{
+    font-family:"Copperplate Gothic",san Serif;
+    color:teal;
+    font-size:28px;
+    line-height:1.5em;
+    text-align:center;
+}
+
+
+/*----------TABLET----------*/
+@media only screen and (min-width:800px) and 
+(max-width:1280px){
+    .header{
+        width:155vh;
+    }
+    .main_page{
+        grid-template-columns:1fr 1fr;
+        grid-column-gap:2em;
+    }
+    .main_title{
+        grid-column-start:1;
+        grid-column-end:span 2;
+        grid-row-start:1;
+        grid-row-end:span 1;
+        height:auto;
+    }
+    .about{
+        width:50vw;
+        height:170vh;
+    }
+    .statement{
+        width:50vw;
+        height:170vh;
+    }
+
+    .group_page{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header_3{
+        width:110vw;
+        height:8vh;
+    }
+    .Individual_page1{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .orangered{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+    .orangered h6{
+        font-size:27px;
+    }
+    .character_card1{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    } 
+
+    .Individual_page2{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .skyblue{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .skyblue h6{
+        font-size:27px;
+    }
+    .character_card2{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+
+    .Individual_page3{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .purple{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .purple h6{
+        font-size:27px;
+    }
+    .character_card3{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+
+    .Individual_page4{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .limegreen{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .limegreen h6{
+        font-size:27px;
+    }
+    .character_card4{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+
+    .Individual_page5{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .lightslategray{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .lightslategray h6{
+        font-size:27px;
+    }
+    .character_card5{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+
+    .Individual_page6{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .red{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .red h6{
+        font-size:27px;
+    }
+    .character_card6{
+        width:38vw;
+        height:91vh;
+        margin:auto;
+    }
+
+    .Individual_page7{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .moonlightblue{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .moonlightblue h6{
+        font-size:27px;
+    }
+    .character_card7{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+
+    .Individual_page8{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .lavender{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .lavender h6{
+        font-size:27px;
+    }
+    .character_card8{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+
+    .Individual_page9{
+        grid-template-columns:1fr 1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .teal{
+        width:38vw;
+        height:89vh;
+        margin:auto;
+    }
+    .teal h6{
+        font-size:27px;
+    }
+    .character_card9{
+        width:38vw;
+        height:90vh;
+        margin:auto;
+    }
+}
+
+
+/*----------SMARTPHONE----------*/
+@media only screen and (max-width:800px){
+    .header{
+        width:120vh;
+    }
+    .main_page{
+        grid-template-columns:1fr 1fr;
+        grid-column-gap:2em;
+    }
+    .main_title{
+        grid-column-start:1;
+        grid-column-end:span 2;
+        grid-row-start:1;
+        grid-row-end:span 1;
+        height:auto;
+    }
+    .about{
+        width:50vw;
+        height:170vh;
+    }
+    .statement{
+        width:50vw;
+        height:170vh;
+    }
+
+    .header_2{
+        height:18vh;
+    }
+    .group_page{
+        grid-template-columns:1fr;
+    }
+
+    .header_3{
+        width:110vw;
+        height:8vh;
+    }
+
+    .Individual_page1{
+        grid-template-columns:1fr;
+        grid-row-gap:1em;
+        height:auto;
+    }
+    .orangered{
+        width:36vw;
+        height:65vh;
+        margin:auto;
+    }
+    .orangered h6{
+        font-size:20px;
+    }
+    .character_card1{
+        width:38vw;
+        height:65vh;
+        margin:auto;
+    }
+
+    .Individual_page2{
+        grid-template-columns:1fr;
+        grid-row-gap:8em;
+        height:auto;
+    }
+    .skyblue{
+        width:36vw;
+        height:67vh;
+        margin:auto;
+    }
+    .skyblue h6{
+        font-size:20px;
+    }
+    .character_card2{
+        width:38vw;
+        height:65vh;
+        margin:auto;
+    }
+
+    .Individual_page3{
+        grid-template-columns:1fr;
+        grid-row-gap:8em;
+        height:auto;
+    }
+    .purple{
+        width:36vw;
+        height:65vh;
+        margin:auto;
+    }
+    .purple h6{
+        font-size:20px;
+    }
+    .character_card3{
+        width:38vw;
+        height:65vh;
+        margin:auto;
+    }
+
+    .Individual_page4{
+        grid-template-columns:1fr;
+        grid-row-gap:8em;
+        height:auto;
+    }
+    .limegreen{
+        width:36vw;
+        height:65vh;
+        margin:auto;
+    }
+    .limegreen h6{
+        font-size:20px;
+    }
+    .character_card4{
+        width:38vw;
+        height:70vh;
+        margin:auto;
+    }
+
+    .Individual_page5{
+        grid-template-columns:1fr;
+        grid-row-gap:7em;
+        height:auto;
+    }
+    .lightslategray{
+        width:36vw;
+        height:65vh;
+        margin:auto;
+    }
+    .lightslategray h6{
+        font-size:20px;
+    }
+    .character_card5{
+        width:38vw;
+        height:62vh;
+        margin:auto;
+    }
+
+    .Individual_page6{
+        grid-template-columns:1fr;
+        grid-row-gap:10em;
+        height:auto;
+    }
+    .red{
+        width:36vw;
+        height:71vh;
+        margin:auto;
+    }
+    .red h6{
+        font-size:20px;
+    }
+    .character_card6{
+        width:38vw;
+        height:74vh;
+        margin:auto;
+    }
+
+    .Individual_page7{
+        grid-template-columns:1fr;
+        grid-row-gap:8em;
+        height:auto;
+    }
+    .moonlightblue{
+        width:36vw;
+        height:67vh;
+        margin:auto;
+    }
+    .moonlightblue h6{
+        font-size:20px;
+    }
+    .character_card7{
+        width:38vw;
+        height:67vh;
+        margin:auto;
+    }
+
+    .Individual_page8{
+        grid-template-columns:1fr;
+        grid-row-gap:8em;
+        height:auto;
+    }
+    .lavender{
+        width:36vw;
+        height:65vh;
+        margin:auto;
+    }
+    .lavender h6{
+        font-size:19px;
+    }
+    .character_card8{
+        width:38vw;
+        height:69vh;
+        margin:auto;
+    }
+
+    .Individual_page9{
+        grid-template-columns:1fr;
+        grid-row-gap:8em;
+        height:auto;
+    }
+    .teal{
+        width:36vw;
+        height:67vh;
+        margin:auto;
+    }
+    .teal h6{
+        font-size:20px;
+    }
+    .character_card9{
+        width:38vw;
+        height:65vh;
+        margin:auto;
+    }
 }
