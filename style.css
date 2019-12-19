@@ -31,7 +31,6 @@ h2{
 
   .about{
     width:24.6vw;
-    height:140vh;
     background-color:rgb(122, 162, 167);
     margin:left;
     margin-left:20px;
@@ -85,7 +84,6 @@ h4{
 
 .statement{
     width:24.6vw;
-    height:140vh;
     background-color: rgb(122, 162, 167);
     margin:right;
     margin-right:20px;
@@ -110,7 +108,7 @@ h5{
 
 .header_2{
     width:100vw;
-    height:6vh;
+    height:8vh;
     margin:auto;
     margin-top:100px;
     background-color: rgb(23,178,79);
@@ -197,7 +195,7 @@ h5{
 
 .header_3{
     width:100vw;
-    height:6vh;
+    height:9vh;
     margin:auto;
     margin-top:30px;
     background-color:gray;
@@ -214,7 +212,6 @@ h5{
 
 .character_card1{
     width:24.6vw;
-    height:85vh;
     background-color:orangered;
     margin:left;
     margin-left:20px;
@@ -228,7 +225,6 @@ h5{
 .info_card1{
     border:6px solid orangered;
     width:24.6vw;
-    height:85vh;
 }
 
 .orangered h6{
@@ -244,14 +240,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card2{
     width:24.6vw;
-    height:85vh;
     background-color:skyblue;
     margin:left;
     margin-left:20px;
@@ -265,7 +259,6 @@ h5{
 .info_card2{
     border:6px solid skyblue;
     width:24.6vw;
-    height:85vh;
 }
 
 .skyblue h6{
@@ -281,14 +274,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card3{
     width:24.6vw;
-    height:85vh;
     background-color: purple;
     margin:left;
     margin-left:20px;
@@ -302,7 +293,7 @@ h5{
 .info_card3{
     border:6px solid purple;
     width:24.6vw;
-    height:85vh;
+
 }
 
 .purple h6{
@@ -318,14 +309,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card4{
     width:24.6vw;
-    height:90vh;
     background-color:limegreen;
     margin:left;
     margin-left:20px;
@@ -339,7 +328,6 @@ h5{
 .info_card4{
     border:6px solid limegreen;
     width:24.6vw;
-    height:90vh;
 }
 
 .limegreen h6{
@@ -355,14 +343,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card5{
     width:24.6vw;
-    height:85vh;
     background-color:lightslategray;
     margin:left;
     margin-left:20px;
@@ -376,7 +362,6 @@ h5{
 .info_card5{
     border:6px solid lightslategray;
     width:24.6vw;
-    height:85vh;
 }
 
 .lightslategray h6{
@@ -392,14 +377,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card6{
     width:24.6vw;
-    height:89vh;
     background-color:red;
     margin:left;
     margin-left:20px;
@@ -413,7 +396,6 @@ h5{
 .info_card6{
     border:6px solid red;
     width:24.6vw;
-    height:89vh;
 }
 
 .red h6{
@@ -429,14 +411,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card7{
     width:24.6vw;
-    height:85vh;
     background-color:rgb(51,81,162);
     margin:left;
     margin-left:20px;
@@ -450,7 +430,6 @@ h5{
 .info_card7{
     border:6px solid rgb(51,81,162);
     width:24.6vw;
-    height:85vh;
 }
 
 .moonlightblue h6{
@@ -466,14 +445,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card8{
     width:24.6vw;
-    height:88vh;
     background-color:blueviolet;
     margin:left;
     margin-left:20px;
@@ -487,7 +464,6 @@ h5{
 .info_card8{
     border:6px solid blueviolet;
     width:24.6vw;
-    height:88vh;
 }
 
 .lavender h6{
@@ -503,14 +479,12 @@ h5{
     margin:auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:400px;
     grid-column-gap:2em;
     margin-top:30px;
 }
 
 .character_card9{
     width:24.6vw;
-    height:88vh;
     background-color:teal;
     margin:left;
     margin-left:20px;
@@ -524,7 +498,6 @@ h5{
 .info_card9{
     border:6px solid teal;
     width:24.6vw;
-    height:88vh;
 }
 
 .teal h6{
@@ -555,20 +528,22 @@ h5{
     }
     .about{
         width:50vw;
-        height:170vh;
     }
     .statement{
         width:50vw;
-        height:170vh;
     }
 
     .group_page{
         grid-template-columns: 1fr 1fr;
     }
 
+    .header_2{
+        height:10vh;
+    }
+
     .header_3{
         width:110vw;
-        height:8vh;
+        height:10vh;
     }
     .Individual_page1{
         grid-template-columns:1fr 1fr;
@@ -577,15 +552,13 @@ h5{
     }
     .orangered{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
     .orangered h6{
-        font-size:27px;
+        font-size:21px;
     }
     .character_card1{
         width:38vw;
-        height:90vh;
         margin:auto;
     } 
 
@@ -596,15 +569,13 @@ h5{
     }
     .skyblue{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .skyblue h6{
-        font-size:27px;
+        font-size:21px;
     }
     .character_card2{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 
@@ -615,15 +586,13 @@ h5{
     }
     .purple{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .purple h6{
-        font-size:27px;
+        font-size:21px;
     }
     .character_card3{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 
@@ -634,15 +603,13 @@ h5{
     }
     .limegreen{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .limegreen h6{
-        font-size:27px;
+        font-size:24px;
     }
     .character_card4{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 
@@ -653,15 +620,13 @@ h5{
     }
     .lightslategray{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .lightslategray h6{
-        font-size:27px;
+        font-size:23px;
     }
     .character_card5{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 
@@ -672,15 +637,13 @@ h5{
     }
     .red{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .red h6{
-        font-size:27px;
+        font-size:23.5px;
     }
     .character_card6{
         width:38vw;
-        height:91vh;
         margin:auto;
     }
 
@@ -691,15 +654,13 @@ h5{
     }
     .moonlightblue{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .moonlightblue h6{
-        font-size:27px;
+        font-size:23.5px;
     }
     .character_card7{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 
@@ -710,15 +671,13 @@ h5{
     }
     .lavender{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .lavender h6{
-        font-size:27px;
+        font-size:22px;
     }
     .character_card8{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 
@@ -729,15 +688,13 @@ h5{
     }
     .teal{
         width:38vw;
-        height:89vh;
         margin:auto;
     }
     .teal h6{
-        font-size:27px;
+        font-size:21px;
     }
     .character_card9{
         width:38vw;
-        height:90vh;
         margin:auto;
     }
 }
@@ -761,11 +718,9 @@ h5{
     }
     .about{
         width:50vw;
-        height:170vh;
     }
     .statement{
         width:50vw;
-        height:170vh;
     }
 
     .header_2{
@@ -777,7 +732,7 @@ h5{
 
     .header_3{
         width:110vw;
-        height:8vh;
+        height:9vh;
     }
 
     .Individual_page1{
@@ -787,7 +742,6 @@ h5{
     }
     .orangered{
         width:36vw;
-        height:65vh;
         margin:auto;
     }
     .orangered h6{
@@ -795,7 +749,6 @@ h5{
     }
     .character_card1{
         width:38vw;
-        height:65vh;
         margin:auto;
     }
 
@@ -806,7 +759,6 @@ h5{
     }
     .skyblue{
         width:36vw;
-        height:67vh;
         margin:auto;
     }
     .skyblue h6{
@@ -814,7 +766,6 @@ h5{
     }
     .character_card2{
         width:38vw;
-        height:65vh;
         margin:auto;
     }
 
@@ -825,7 +776,6 @@ h5{
     }
     .purple{
         width:36vw;
-        height:65vh;
         margin:auto;
     }
     .purple h6{
@@ -833,7 +783,6 @@ h5{
     }
     .character_card3{
         width:38vw;
-        height:65vh;
         margin:auto;
     }
 
@@ -844,7 +793,6 @@ h5{
     }
     .limegreen{
         width:36vw;
-        height:65vh;
         margin:auto;
     }
     .limegreen h6{
@@ -852,7 +800,6 @@ h5{
     }
     .character_card4{
         width:38vw;
-        height:70vh;
         margin:auto;
     }
 
@@ -863,7 +810,6 @@ h5{
     }
     .lightslategray{
         width:36vw;
-        height:65vh;
         margin:auto;
     }
     .lightslategray h6{
@@ -871,7 +817,6 @@ h5{
     }
     .character_card5{
         width:38vw;
-        height:62vh;
         margin:auto;
     }
 
@@ -882,7 +827,6 @@ h5{
     }
     .red{
         width:36vw;
-        height:71vh;
         margin:auto;
     }
     .red h6{
@@ -890,7 +834,6 @@ h5{
     }
     .character_card6{
         width:38vw;
-        height:74vh;
         margin:auto;
     }
 
@@ -901,7 +844,6 @@ h5{
     }
     .moonlightblue{
         width:36vw;
-        height:67vh;
         margin:auto;
     }
     .moonlightblue h6{
@@ -909,7 +851,6 @@ h5{
     }
     .character_card7{
         width:38vw;
-        height:67vh;
         margin:auto;
     }
 
@@ -920,7 +861,6 @@ h5{
     }
     .lavender{
         width:36vw;
-        height:65vh;
         margin:auto;
     }
     .lavender h6{
@@ -928,7 +868,6 @@ h5{
     }
     .character_card8{
         width:38vw;
-        height:69vh;
         margin:auto;
     }
 
@@ -939,15 +878,13 @@ h5{
     }
     .teal{
         width:36vw;
-        height:67vh;
         margin:auto;
     }
     .teal h6{
-        font-size:20px;
+        font-size:18px;
     }
     .character_card9{
         width:38vw;
-        height:65vh;
         margin:auto;
     }
 }
